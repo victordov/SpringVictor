@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--    load properties files, contains configuration files see README for description -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:env.properties</value>
+                <value>classpath:jdbc.properties</value>
+                <value>classpath:host.properties</value>
+                <value>classpath:request.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <util:properties id="projectprop" location="classpath:config/${environement}/project.properties" />
+
+
+    <!-- intialize some constats of the project -->
+    <bean class="md.victordov.util.LogicConstants">
+        <property name="test" value="test value"/>
+    </bean>
+
+    <!-- Configure the multipart resolver -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- one of the properties available; the maximum file size in bytes -->
+        <property name="maxUploadSize" value="1000000000000"/>
+    </bean>
+    
+    <!-- ==============================   CACHE   ============================= -->
+<!--    initialize a bean that holds the ehcache cache manager from a configuration file 
+    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+        <property name="configLocation" value="classpath:iwt-ehcache.xml" />
+    </bean>-->
+<!--    initialize a bean that holds the entry point for the ehcache cache manager     
+    <bean id="methodCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+        <property name="cacheManager" ref="cacheManager" />
+        <property name="cacheName" value="USER_SESSION_CACHE" />        
+    </bean>    
+    -->
+    
+    <!-- import hibernate config -->
+    <!-- <import resource="classpath:/hibernate/hibernate.xml" /> -->
+     
+</beans>

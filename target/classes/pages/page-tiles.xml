@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="index" extends="base.definition">
+        <put-attribute name="title" value="Index Page"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp"/>
+    </definition>
+    <!--
+    <definition name="index" extends="base.definition" >
+        <put-attribute name="title" value="Start Page" />
+        <put-attribute name="body" value="/WEB-INF/index.jsp" />
+    </definition>
+
+    <definition name="uploads" extends="base.definition">
+            <put-attribute name="title" value="Upload" />
+            <put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp" />
+    </definition>
+    -->
+    <definition name="student" extends="base.definition">
+        <put-attribute name="title" value="Student"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/student.jsp"/>
+    </definition>
+
+    <definition name="editStudent" extends="base.definition">
+        <put-attribute name="title" value="Student Page"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/editStudent.jsp"/>
+    </definition>
+
+    <definition name="srchStudent" extends="base.definition">
+        <put-attribute name="title" value="Search Student - Course"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/srchStudent.jsp"/>
+    </definition>
+
+    <definition name="insertStudent" extends="base.definition">
+        <put-attribute name="title" value="Search Student - Course"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/insertStudent.jsp"/>
+    </definition>
+
+    <definition name="university" extends="base.definition">
+        <put-attribute name="title" value="University"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/university.jsp"/>
+    </definition>
+
+    <definition name="error" extends="base.definition">
+        <put-attribute name="title" value="Error"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/error.jsp"/>
+    </definition>
+
+
+</tiles-definitions>	

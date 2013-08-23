@@ -1,0 +1,27 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+<!-- defines the ehcache cache manager configuration -->
+	
+	<diskStore path="java.io.tmpdir"/>
+	
+	<defaultCache 
+    	maxElementsInMemory="10000" 
+    	eternal="false"
+		timeToIdleSeconds="120" 
+		timeToLiveSeconds="120" 
+		overflowToDisk="true"
+		maxElementsOnDisk="10000000"
+		diskPersistent="false"
+		diskExpiryThreadIntervalSeconds="120" 
+		memoryStoreEvictionPolicy="LFU" />
+	
+	<cache name="USER_SESSION_CACHE" 
+    	maxElementsInMemory="10000" 
+    	eternal="true"
+		timeToIdleSeconds="3600" 
+		timeToLiveSeconds="3600" 
+		overflowToDisk="true"
+		maxElementsOnDisk="10000000"
+		memoryStoreEvictionPolicy="LFU" />
+
+</ehcache>
