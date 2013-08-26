@@ -4,12 +4,21 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<div class="col-sm-offset-4 col-4"></div>
-<ul class="nav nav-tabs">
-    <li><a href="/student.html">Student</a></li>
-    <li><a href="/university.html">University</a></li>
-    <li><a href="/student/search.html" class="active">Search Student-Course</a></li>
-</ul>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/student.html">Student</a></li>
+                    <li><a href="/university.html">University</a></li>
+                    <li><a href="/student/search.html" class="active">Search Student-Course</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="col-md-2"></div>
+</div>
 
 <div class="row">
     <div class="col-lg-2"></div>
@@ -23,7 +32,7 @@
                 <label for="courseName">Course name</label>
 
                 <div class="col-lg-3">
-                    <input name="courseName" id="courseName" path="courseName" class="form-control" />
+                    <input name="courseName" id="courseName" path="courseName" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">
@@ -79,15 +88,16 @@
     <div class="col-lg-2"></div>
     <script>
 
-        $(document).ready(function(){
-           $(formEnDis);
+        $(document).ready(function () {
+            $(formEnDis);
         });
         function enableDisable(trueFalse) {
             $("#studentName").prop('disabled', trueFalse);
             $("#submitFormBtn").prop('disabled', trueFalse);
-        };
+        }
+        ;
 
-       var formEnDis =  $("#courseName").on('keyup', function () {
+        var formEnDis = $("#courseName").on('keyup', function () {
             if ($("#courseName").val() == "") {
                 enableDisable(true);
             } else {

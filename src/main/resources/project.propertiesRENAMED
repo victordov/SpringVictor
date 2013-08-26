@@ -1,0 +1,17 @@
+#server.hostUrl = http://85.17.76.137:8096/IWT/
+#dev.uploads.folder = /var/www/youtube/uploads/
+
+
+#dev.hostUrl = http://localhost:8080/uploads.html
+#dev.uploads.folder = /var/www/youtube/uploads/
+
+
+
+#mpecari.hostUrl = http://localhost:8080/IWT/
+#mpecari.uploads.folder = C:\\Users\\mpecari\\Projects\\Pet Shop\\upload\\
+
+
+
+# general config 
+
+#uploads.maximum_file_size = 

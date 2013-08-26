@@ -42,11 +42,11 @@ public class StudentController {
         return "student";
     }
 
-    @RequestMapping(value = "/a", method = RequestMethod.GET)
+    @RequestMapping(value = "/single/{id}", method = RequestMethod.GET)
     public
     @ModelAttribute
-    Student getAllStudentsa(ModelMap model) {
-        Student student = studentServiceInf.findById(1);
+    Student getAllStudentsa(@PathVariable("id") Integer id, ModelMap model) {
+        Student student = studentServiceInf.findById(id);
         return student;
     }
 

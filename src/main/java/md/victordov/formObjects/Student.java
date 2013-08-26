@@ -21,41 +21,42 @@ import java.util.Set;
 @XmlRootElement(name = "student")
 @XmlAccessorType(XmlAccessType.NONE)
 //@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
-public class Student implements Serializable{
+public class Student implements Serializable {
 
     @XmlElement(name = "id", type = Integer.class)
     private Integer id;
 
     @XmlElement(name = "name", type = String.class)
     @NotNull
-    @Size(min=2, max=30)
+    @Size(min = 2, max = 30)
     private String name;
 
     @XmlElement(name = "lname", type = String.class)
-    @Size(min=2, max=30)
+    @Size(min = 2, max = 30)
+    @NotNull
     private String lname;
 
     @JsonIgnoreProperties(value = {"students"})
-    @JsonSerialize(as=Set.class)
+    @JsonSerialize(as = Set.class)
     @XmlTransient
 
     private Set<Curs> curses = new HashSet<Curs>();
 
     @JsonIgnoreProperties(value = {"students"})
-    @JsonSerialize(as=University.class)
-    @XmlElement(name="university")
+    @JsonSerialize(as = University.class)
+    @XmlElement(name = "university")
     private University university;
 
-    public Student(){
+    public Student() {
 
     }
 
-    public Student(String name, String lname){
-        this.name  = name;
+    public Student(String name, String lname) {
+        this.name = name;
         this.lname = lname;
     }
 
-    public Student(String name, String lname, Set<Curs> curses){
+    public Student(String name, String lname, Set<Curs> curses) {
         this(name, lname);
         this.curses = curses;
     }
@@ -86,8 +87,8 @@ public class Student implements Serializable{
     }
 
     @Override
-    public String toString(){
-      return new StringBuilder(this.getId()+", " + this.getName()+", " + this.getLname()).toString();
+    public String toString() {
+        return new StringBuilder(this.getId() + ", " + this.getName() + ", " + this.getLname()).toString();
     }
 
 
@@ -99,8 +100,8 @@ public class Student implements Serializable{
         md.victordov.db.beans.Student student = (md.victordov.db.beans.Student) o;
 
         if (id != null ? !id.equals(student.getId()) : student.getId() != null) return false;
-        if (lname != null ? !lname.equals(student.getLname()) : student.getLname()!= null) return false;
-        if (name != null ? !name.equals(student.getName()) : student.getName()!= null) return false;
+        if (lname != null ? !lname.equals(student.getLname()) : student.getLname() != null) return false;
+        if (name != null ? !name.equals(student.getName()) : student.getName() != null) return false;
 
         return true;
     }

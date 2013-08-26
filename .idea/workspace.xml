@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1331bbb1-5a6f-41da-9333-10abce73ec3b" name="Default" comment="" />
+    <list default="true" id="1331bbb1-5a6f-41da-9333-10abce73ec3b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/form/validator/FileUploadValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UploadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/UploadItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/form/validator/UploadItemForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UploadServiceInf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UploaderServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/uploadsArray.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/HelloController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/project.properties" afterPath="$PROJECT_DIR$/src/main/resources/project.propertiesRENAMED" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Student.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/baseLayout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/baseLayout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/editStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/editStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locale/message_en.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/locale/message_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" afterPath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/srchStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/srchStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/university.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/university.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/uploads.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/uploads.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SpringVictor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377251697446" ignored="false" />
-    <file path="/fragment.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247199239" ignored="false" />
+    <file path="/Dummy.txt" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377496838609" ignored="false" />
+    <file path="/fragment.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377497395435" ignored="false" />
     <file path="/hello.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376299163312" ignored="false" />
     <file path="/pom.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377184209781" ignored="false" />
     <file path="/PostgreSqlDb" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070901751" ignored="false" />
@@ -15,7 +42,7 @@
     <file path="/StudentDaoImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377176981462" ignored="false" />
     <file path="/StudentDao.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376303016947" ignored="false" />
     <file path="/StudentServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377176636373" ignored="false" />
-    <file path="/StudentController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377250086792" ignored="false" />
+    <file path="/StudentController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377517717100" ignored="false" />
     <file path="/student.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377177093589" ignored="false" />
     <file path="/web.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377153904538" ignored="false" />
     <file path="/Curs.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377175983802" ignored="false" />
@@ -34,7 +61,7 @@
     <file path="/CursServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376375600629" ignored="false" />
     <file path="/UniversitateServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376375645652" ignored="false" />
     <file path="/UniversityController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376377823210" ignored="false" />
-    <file path="/university.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092222415" ignored="false" />
+    <file path="/university.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377512901174" ignored="false" />
     <file path="/studentOne.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376382363867" ignored="false" />
     <file path="/error.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376379873270" ignored="false" />
     <file path="/editStudentPage.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376913116608" ignored="false" />
@@ -45,18 +72,17 @@
     <file path="/XQueueRespImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642694965" ignored="false" />
     <file path="$PROJECT_DIR$/../PetParade/src/main/java/com/winify/petparad/db/beans/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642797440" ignored="false" />
     <file path="/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642777298" ignored="false" />
-    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377186662360" ignored="false" />
+    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377497304851" ignored="false" />
     <file path="/AppTests.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376914607985" ignored="false" />
     <file path="/layout-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092742366" ignored="false" />
-    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377182463959" ignored="false" />
+    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377273493928" ignored="false" />
     <file path="/LogicalConstants.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376915117537" ignored="false" />
-    <file path="/springVictor-spring.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376917539826" ignored="false" />
-    <file path="/baseLayout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377087865356" ignored="false" />
-    <file path="/index.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377093354360" ignored="false" />
+    <file path="/springVictor-spring.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377261699961" ignored="false" />
+    <file path="/baseLayout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377508779925" ignored="false" />
+    <file path="/index.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377517636176" ignored="false" />
     <file path="/fd.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377005396862" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377012609088" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/artifacts/SpringVictor_war_exploded.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377008750151" ignored="false" />
-    <file path="/editStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377245723863" ignored="false" />
+    <file path="/editStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377512710549" ignored="false" />
     <file path="/sessionFactory" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070858309" ignored="false" />
     <file path="/srchStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092286493" ignored="false" />
     <file path="/log4j.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377178732229" ignored="false" />
@@ -76,8 +102,21 @@
     <file path="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/StudentDaoInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247827535" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/CursDaoInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247827535" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/UniversityDaoInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247827535" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/CursServiceInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247827536" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UniversityServiceInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377247827536" ignored="false" />
+    <file path="/Uploader.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377261989561" ignored="false" />
+    <file path="/UploadServiceInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377258293132" ignored="false" />
+    <file path="/UploaderServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377501211040" ignored="false" />
+    <file path="/UploadController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377498444960" ignored="false" />
+    <file path="/uploads.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377260983064" ignored="false" />
+    <file path="/project.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377259746951" ignored="false" />
+    <file path="/Main.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377267077226" ignored="false" />
+    <file path="$PROJECT_DIR$/../JavaLearn/src/main/java/md/victordov/Main.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377267103128" ignored="false" />
+    <file path="/uploadsArray.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377511464223" ignored="false" />
+    <file path="/UploadItemForm.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377498690691" ignored="false" />
+    <file path="$PROJECT_DIR$/../TwitterHtml/index.html" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377506866434" ignored="false" />
+    <file path="$PROJECT_DIR$/../TwitterHtml/.idea/workspace.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377517721151" ignored="false" />
+    <file path="/index.html" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377506852034" ignored="false" />
+    <file path="/UploadItem.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377513485941" ignored="false" />
+    <file path="/FileUploadValidator.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377516728886" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +141,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -139,7 +179,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -149,29 +188,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editStudent.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/editStudent.jsp">
+      <file leaf-file-name="FileUploadValidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/form/validator/FileUploadValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1291" selection-end="1627" vertical-scroll-proportion="1.3043479">
-              <folding />
+            <state line="36" column="51" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StudentController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="105" selection-start="4577" selection-end="4577" vertical-scroll-proportion="0.0">
+            <state line="48" column="55" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.6215569">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/beans/Student.java">
+      <file leaf-file-name="UploadItemForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/form/validator/UploadItemForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="12" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="28" column="49" selection-start="628" selection-end="638" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,22 +238,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/locale/message_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/insertStudent.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/models/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/dbBeans/Curs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/dbBeans/Curs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/db/Beans/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Curs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/University.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/db/beans/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/UploaderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/baseLayout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/UploadItemForm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/uploadsArray.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/editStudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/university.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/srchStudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/UploadItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/form/validator/FileUploadValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
       </list>
     </option>
   </component>
@@ -275,7 +319,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -294,8 +338,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,7 +528,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,11 +550,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,40 +641,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectMapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,37 +700,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,38 +754,40 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="md.victordov.formObjects" />
       <recent name="md.victordov.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
       <recent name="$PROJECT_DIR$/src/main/java/md/victordov/formObjects" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/locale" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="md.victordov.service" />
       <recent name="md.victordov.dao" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="md.victordov" />
-      <recent name="md.victordov.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="md.victordov.models" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="md.victordov" />
+      <recent name="md.victordov.service" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat6_Server">
@@ -791,6 +803,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -819,19 +844,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -875,12 +887,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
@@ -947,6 +953,12 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat6_Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
@@ -1096,6 +1108,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39264327" sideWeight="0.336" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6182857" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978903" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1112,13 +1125,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3257384" sideWeight="0.52" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48" sideWeight="0.49957806" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321519" sideWeight="0.67085713" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35542858" sideWeight="0.49957806" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990878" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1210,118 +1222,136 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/StudentServiceInf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/StudentServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="25" selection-start="1066" selection-end="1093" vertical-scroll-proportion="0.0">
+        <state line="4" column="7" selection-start="79" selection-end="79" vertical-scroll-proportion="0.116959065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/javax/validation/constraints/NotNull.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/uploadsArray.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="586" selection-end="586" vertical-scroll-proportion="0.16666667">
+        <state line="29" column="29" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-18.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/javax/validation/constraints/Size.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/university.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="586" selection-end="586" vertical-scroll-proportion="0.16666667">
+        <state line="20" column="9" selection-start="821" selection-end="893" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/beans/Curs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="802" selection-end="802" vertical-scroll-proportion="0.28742516">
+        <state line="20" column="8" selection-start="817" selection-end="889" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/University.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/srchStudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
+        <state line="20" column="6" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.5">
+          <folding>
+            <marker date="1377513131370" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377513131370" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377513131370" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377513131370" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377513131370" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/UploadItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="370" selection-end="370" vertical-scroll-proportion="0.30070755">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Curs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/form/validator/UploadItemForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+        <state line="28" column="49" selection-start="628" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.0.RELEASE/spring-context-3.2.0.RELEASE.jar!/org/springframework/validation/Errors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="9" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/Column.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.0.RELEASE/spring-context-3.2.0.RELEASE-sources.jar!/org/springframework/validation/Errors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+        <state line="140" column="78" selection-start="5058" selection-end="5211" vertical-scroll-proportion="0.27948114">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar!/javax/persistence/Column.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/form/validator/FileUploadValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="18" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.33254716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar!/javax/persistence/GeneratedValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.5931604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.2.2.Final-sources.jar!/org/hibernate/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="16" selection-start="17140" selection-end="17140" vertical-scroll-proportion="0.33254716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="520" selection-end="520" vertical-scroll-proportion="0.3233533">
+        <state line="36" column="51" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/dao/StudentDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.7101796">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="105" selection-start="4577" selection-end="4577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/beans/Student.java">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+        <state line="95" column="48" selection-start="3033" selection-end="3266" vertical-scroll-proportion="0.76516634">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/editStudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1291" selection-end="1627" vertical-scroll-proportion="1.3043479">
+        <state line="0" column="0" selection-start="0" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="241" selection-end="241" vertical-scroll-proportion="0.07281554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="55" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.6215569">
           <folding />
         </state>
       </provider>
