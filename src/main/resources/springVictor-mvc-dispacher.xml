@@ -160,6 +160,9 @@ http://www.springframework.org/schema/util http://www.springframework.org/schema
             </util:list>
         </property>
     </bean>
+    <mvc:interceptors>
+        <ref bean="localeChangeInterceptor"/>
+    </mvc:interceptors>
 
 </beans>
 

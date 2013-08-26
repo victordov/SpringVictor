@@ -7,12 +7,10 @@
         <put-attribute name="title" value="Index Page"/>
         <put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp"/>
     </definition>
-    <!--
-    <definition name="index" extends="base.definition" >
-        <put-attribute name="title" value="Start Page" />
-        <put-attribute name="body" value="/WEB-INF/index.jsp" />
-    </definition>
-    -->
+    <!--<definition name="index" extends="base.definition" >-->
+    <!--<put-attribute name="title" value="Start Page" />-->
+    <!--<put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp" />-->
+    <!--</definition>-->
     <definition name="uploads" extends="base.definition">
         <put-attribute name="title" value="Upload"/>
         <put-attribute name="body" value="/WEB-INF/view/jsp/uploadsArray.jsp"/>

@@ -42,6 +42,7 @@ public class StudentController {
         return "student";
     }
 
+    //Return JSON & XML
     @RequestMapping(value = "/single/{id}", method = RequestMethod.GET)
     public
     @ModelAttribute
@@ -50,7 +51,7 @@ public class StudentController {
         return student;
     }
 
-
+    //Returns one student html || json || xml
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String getOneStudent(@PathVariable Integer id, ModelMap model) {
 
@@ -65,12 +66,14 @@ public class StudentController {
         return "student";
     }
 
+    //deletes & redirects
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public String deleteStudent(@PathVariable Integer id, ModelMap model) {
         studentServiceInf.delete(id);
         return "redirect:/student.html";
     }
 
+    //displays the student for editing
     @RequestMapping(value = "/edit/{id}", method = RequestMethod.PUT)
     public String editStudent(@PathVariable(value = "id") Integer id, ModelMap model) {
         Student student = studentServiceInf.findById(id);
@@ -82,9 +85,11 @@ public class StudentController {
         return "editStudent";
     }
 
-
+    //updates student
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public String updateStudent(@Valid @ModelAttribute("student") md.victordov.formObjects.Student student, BindingResult bindingResult, ModelMap model) {
+    public String updateStudent(@Valid @ModelAttribute("student") md.victordov.formObjects.Student student,
+                                BindingResult bindingResult,
+                                ModelMap model) {
         if (bindingResult.hasErrors()) {
             return "editStudent";
         }
@@ -99,6 +104,7 @@ public class StudentController {
         return "redirect:/student.html";
     }
 
+    //returns an empty page for search
     @RequestMapping(value = "/search", method = RequestMethod.GET)
     public String searchStudentCursEmpty(ModelMap model) {
         model.addAttribute("emptyPage", true);
@@ -106,8 +112,12 @@ public class StudentController {
         return "srchStudent";
     }
 
+    //searches for students who attended for "x" course taking 2 params and the search is relative to names
+    // you don't have to provide full name of course or student
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    public String searchStudentCurs(@RequestParam("studentName") String studentName, @RequestParam("courseName") String courseName, ModelMap model) {
+    public String searchStudentCurs(@RequestParam("studentName") String studentName,
+                                    @RequestParam("courseName") String courseName,
+                                    ModelMap model) {
         List<Student> studentList = new ArrayList<Student>();
         if (courseName != "") {
             studentList = studentServiceInf.findForCourse(studentName, courseName);
@@ -129,7 +139,9 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/new", method = RequestMethod.POST)
-    public String insertStudent(@Valid @ModelAttribute("student") Student student, BindingResult bindingResult, ModelMap model) {
+    public String insertStudent(@Valid @ModelAttribute("student") Student student,
+                                BindingResult bindingResult,
+                                ModelMap model) {
         if (bindingResult.hasErrors()) {
             logger.info("has errors");
             return "insertStudent";
