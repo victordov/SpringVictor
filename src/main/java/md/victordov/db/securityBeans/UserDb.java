@@ -16,10 +16,10 @@ import java.util.Set;
  */
 @Entity
 @Table(name = "users")
-public class Users implements Serializable {
+public class UserDb implements Serializable {
 
     //Default constructor
-    public Users() {
+    public UserDb() {
     }
 
     public String getUsername() {
@@ -106,4 +106,32 @@ public class Users implements Serializable {
             joinColumns = {@JoinColumn(name = "username")},
             inverseJoinColumns = {@JoinColumn(name = "authority_id")})
     Set<Authority> authoritySet = new HashSet<Authority>();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        UserDb userDb = (UserDb) o;
+
+        if (accountEnabled != userDb.accountEnabled) return false;
+        if (accountNonExpired != userDb.accountNonExpired) return false;
+        if (accountNonLocked != userDb.accountNonLocked) return false;
+        if (credentialsNonExpired != userDb.credentialsNonExpired) return false;
+        if (!password.equals(userDb.password)) return false;
+        if (!username.equals(userDb.username)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = username.hashCode();
+        result = 31 * result + password.hashCode();
+        result = 31 * result + (accountNonExpired ? 1 : 0);
+        result = 31 * result + (accountNonLocked ? 1 : 0);
+        result = 31 * result + (credentialsNonExpired ? 1 : 0);
+        result = 31 * result + (accountEnabled ? 1 : 0);
+        return result;
+    }
 }

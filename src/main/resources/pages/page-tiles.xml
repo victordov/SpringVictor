@@ -46,5 +46,20 @@
         <put-attribute name="body" value="/WEB-INF/view/jsp/error.jsp"/>
     </definition>
 
+    <definition name="accessDenied" extends="base.definition">
+        <put-attribute name="title" value="Access Denied"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/accessDenied.jsp"/>
+    </definition>
+
+    <definition name="logout" extends="base.definition">
+        <put-attribute name="title" value="Logout Page"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/logout.jsp"/>
+    </definition>
+
+    <definition name="login" extends="base.definition">
+        <put-attribute name="title" value="Login Page"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/login.jsp"/>
+    </definition>
+
 
 </tiles-definitions>	

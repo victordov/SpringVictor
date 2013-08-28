@@ -8,16 +8,45 @@
        http://www.springframework.org/schema/security/spring-security.xsd">
 
     <security:http auto-config='true'>
-        <security:intercept-url pattern="/student*" access="ROLE_USER"/>
-        <security:logout logout-success-url="/university.html"/>
+        <security:intercept-url pattern="/student*" access="ROLE_ADMIN"/>
+
+        <security:logout logout-url="/logout.html"
+                         logout-success-url="/login.html?loggedout=true"
+                         invalidate-session="true"/>
+
+        <security:form-login login-page="/login.html"
+                             password-parameter="pass"
+                             always-use-default-target="false"
+                             authentication-failure-url="/login.html?authfailed=true"
+                             default-target-url="/university.html"/>
+        <security:session-management
+                invalid-session-url="/login.html">
+            <security:concurrency-control
+                    error-if-maximum-exceeded="true" max-sessions="1" expired-url="/login.html"
+                    session-registry-ref="sessionRegistry"/>
+        </security:session-management>
     </security:http>
 
-    <security:authentication-manager>
-        <security:authentication-provider>
-            <security:user-service>
-                <security:user name="jimi" password="jimi" authorities="ROLE_USER, ROLE_ADMIN"/>
-                <security:user name="bob" password="bob" authorities="ROLE_USER"/>
-            </security:user-service>
+    <bean id="sessionRegistry"
+          class="org.springframework.security.core.session.SessionRegistryImpl"/>
+
+    <!--<security:authentication-manager>-->
+    <!--<security:authentication-provider>-->
+    <!--<security:user-service>-->
+    <!--<security:user name="jimi" password="jimi" authorities="ROLE_USER, ROLE_ADMIN"/>-->
+    <!--<security:user name="bob" password="bob" authorities="ROLE_USER"/>-->
+    <!--</security:user-service>-->
+    <!--</security:authentication-provider>-->
+    <!--</security:authentication-manager>-->
+
+
+    <bean id='userDetailsService' class='md.victordov.service.UserDetailsServiceImpl'></bean>
+
+
+    <security:authentication-manager alias="authenticationManager">
+
+        <security:authentication-provider user-service-ref="userDetailsService">
+            <security:password-encoder hash="sha-256"/>
         </security:authentication-provider>
     </security:authentication-manager>
 

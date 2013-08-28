@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<spring:message key="Size.student.name" />
+<%--<spring:message key="Size.student.name" />--%>
 <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-8">

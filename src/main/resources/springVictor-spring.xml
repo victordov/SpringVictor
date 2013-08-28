@@ -4,12 +4,10 @@
        xmlns:util="http://www.springframework.org/schema/util"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-
-
-    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
-
-    <import resource="springVictor-security.xml"/>
+    <!--<import resource="springVictor-security.xml"/>-->
 
     <aop:aspectj-autoproxy/>
     <bean id="myAsp" class="md.victordov.aspect.MyAspect"/>
@@ -38,20 +36,6 @@
         <!-- one of the properties available; the maximum file size in bytes -->
         <property name="maxUploadSize" value="1000000000000"/>
     </bean>
-
-    <!--<security:http auto-config='true'>-->
-    <!--<security:intercept-url pattern="/student*" access="ROLE_USER" />-->
-    <!--<security:logout logout-success-url="/university.html" />-->
-    <!--</security:http>-->
-
-    <!--<security:authentication-manager>-->
-    <!--<security:authentication-provider>-->
-    <!--<security:user-service>-->
-    <!--<security:user name="jimi" password="jimi" authorities="ROLE_USER, ROLE_ADMIN" />-->
-    <!--<security:user name="bob" password="bob" authorities="ROLE_USER" />-->
-    <!--</security:user-service>-->
-    <!--</security:authentication-provider>-->
-    <!--</security:authentication-manager>-->
 
     <!-- ==============================   CACHE   ============================= -->
     <!--    initialize a bean that holds the ehcache cache manager from a configuration file
