@@ -47,6 +47,7 @@
         <property name="packagesToScan">
             <list> <!--list of beans used to map tables , will scan folder and map classes to  tables-->
                 <value>md.victordov.db.beans</value>
+                <value>md.victordov.db.securityBeans</value>
             </list>
         </property>
         <property name="hibernateProperties">

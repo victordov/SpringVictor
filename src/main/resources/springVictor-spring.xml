@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xmlns:jee="http://www.springframework.org/schema/jee"
        xmlns:util="http://www.springframework.org/schema/util"
-       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
-    http://www.springframework.org/schema/context
-    http://www.springframework.org/schema/context/spring-context.xsd
-    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 
+
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <import resource="springVictor-security.xml"/>
+
+    <aop:aspectj-autoproxy/>
+    <bean id="myAsp" class="md.victordov.aspect.MyAspect"/>
     <!--    load properties files, contains configuration files see README for description -->
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
@@ -24,7 +25,7 @@
         </property>
     </bean>
 
-    <util:properties id="projectprop" location="classpath:config/${environement}/project.properties" />
+    <util:properties id="projectprop" location="classpath:config/${environement}/project.properties"/>
 
 
     <!-- intialize some constats of the project -->
@@ -37,20 +38,34 @@
         <!-- one of the properties available; the maximum file size in bytes -->
         <property name="maxUploadSize" value="1000000000000"/>
     </bean>
-    
+
+    <!--<security:http auto-config='true'>-->
+    <!--<security:intercept-url pattern="/student*" access="ROLE_USER" />-->
+    <!--<security:logout logout-success-url="/university.html" />-->
+    <!--</security:http>-->
+
+    <!--<security:authentication-manager>-->
+    <!--<security:authentication-provider>-->
+    <!--<security:user-service>-->
+    <!--<security:user name="jimi" password="jimi" authorities="ROLE_USER, ROLE_ADMIN" />-->
+    <!--<security:user name="bob" password="bob" authorities="ROLE_USER" />-->
+    <!--</security:user-service>-->
+    <!--</security:authentication-provider>-->
+    <!--</security:authentication-manager>-->
+
     <!-- ==============================   CACHE   ============================= -->
-<!--    initialize a bean that holds the ehcache cache manager from a configuration file 
-    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-        <property name="configLocation" value="classpath:iwt-ehcache.xml" />
-    </bean>-->
-<!--    initialize a bean that holds the entry point for the ehcache cache manager     
-    <bean id="methodCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean">
-        <property name="cacheManager" ref="cacheManager" />
-        <property name="cacheName" value="USER_SESSION_CACHE" />        
-    </bean>    
-    -->
-    
+    <!--    initialize a bean that holds the ehcache cache manager from a configuration file
+        <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+            <property name="configLocation" value="classpath:iwt-ehcache.xml" />
+        </bean>-->
+    <!--    initialize a bean that holds the entry point for the ehcache cache manager
+        <bean id="methodCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+            <property name="cacheManager" ref="cacheManager" />
+            <property name="cacheName" value="USER_SESSION_CACHE" />
+        </bean>
+        -->
+
     <!-- import hibernate config -->
     <!-- <import resource="classpath:/hibernate/hibernate.xml" /> -->
-     
+
 </beans>

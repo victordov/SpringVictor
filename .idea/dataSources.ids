@@ -2305,11 +2305,17 @@
       <column name="viewowner" sqlType="name" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="definition" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
     </table>
+    <table name="authority" schema="public" catalog="firstdb" type="TABLE">
+      <column name="id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="role_name" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="authority_pkey" columns="id"/>
+      <exported-key name="fk_o56sveib1du2so4bd7fg49s71" table="users_authorities" schema="public" catalog="firstdb" columns="authority_id"/>
+    </table>
     <table name="curs" schema="public" catalog="firstdb" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnY3Vyc19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
       <column name="curs_name" sqlType="varchar" length="50" precision="0" nullable="true" jdbcType="12"/>
-      <exported-key name="student_curs_curs_id_fkey" table="student_curs" schema="public" catalog="firstdb" columns="curs_id"/>
-      <index name="curs_id_key" unique="true" columns="id"/>
+      <primary-key name="curs_pkey" columns="id"/>
+      <exported-key name="fk_288pmj1nol5wk110spardgmkn" table="student_curs" schema="public" catalog="firstdb" columns="curs_id"/>
     </table>
     <table name="curs_id_seq" schema="public" catalog="firstdb" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
@@ -2325,19 +2331,19 @@
     </table>
     <table name="student" schema="public" catalog="firstdb" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnc3R1ZGVudF9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
-      <column name="name" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <column name="lname" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="lname" sqlType="varchar" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="varchar" length="30" precision="0" nullable="false" jdbcType="12"/>
       <column name="university_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <foreign-key name="university_id_FK" columns="university_id" ref-table="university" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <exported-key name="student_curs_student_id_fkey" table="student_curs" schema="public" catalog="firstdb" columns="student_id"/>
-      <index name="student_id_key" unique="true" columns="id"/>
+      <primary-key name="student_pkey" columns="id"/>
+      <foreign-key name="fk_a9nmvxoolj4das3ghh758un56" columns="university_id" ref-table="university" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_6q8xvkshp5tu7l16njvurcqjv" table="student_curs" schema="public" catalog="firstdb" columns="student_id"/>
     </table>
     <table name="student_curs" schema="public" catalog="firstdb" type="TABLE">
-      <column name="student_id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="curs_id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="student_id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
       <primary-key name="student_curs_pkey" columns="student_id,curs_id"/>
-      <foreign-key name="student_curs_curs_id_fkey" columns="curs_id" ref-table="curs" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="student_curs_student_id_fkey" columns="student_id" ref-table="student" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_288pmj1nol5wk110spardgmkn" columns="curs_id" ref-table="curs" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_6q8xvkshp5tu7l16njvurcqjv" columns="student_id" ref-table="student" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="student_id_seq" schema="public" catalog="firstdb" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
@@ -2353,10 +2359,10 @@
     </table>
     <table name="university" schema="public" catalog="firstdb" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndW5pdmVyc2l0eV9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
-      <column name="university_name" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
       <column name="address" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="primary_key_id_university" columns="id"/>
-      <exported-key name="university_id_FK" table="student" schema="public" catalog="firstdb" columns="university_id"/>
+      <column name="university_name" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="university_pkey" columns="id"/>
+      <exported-key name="fk_a9nmvxoolj4das3ghh758un56" table="student" schema="public" catalog="firstdb" columns="university_id"/>
     </table>
     <table name="university_id_seq" schema="public" catalog="firstdb" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
@@ -2369,6 +2375,23 @@
       <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="users" schema="public" catalog="firstdb" type="TABLE">
+      <column name="username" sqlType="varchar" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="account_enabled" sqlType="bpchar" length="1" precision="0" nullable="false" jdbcType="1"/>
+      <column name="account_non_expired" sqlType="bpchar" length="1" precision="0" nullable="false" jdbcType="1"/>
+      <column name="account_non_locked" sqlType="bpchar" length="1" precision="0" nullable="false" jdbcType="1"/>
+      <column name="credential_non_expired" sqlType="bpchar" length="1" precision="0" nullable="false" jdbcType="1"/>
+      <column name="password" sqlType="varchar" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="users_pkey" columns="username"/>
+      <exported-key name="fk_9rrru4mw9t493aomca3xyl8xb" table="users_authorities" schema="public" catalog="firstdb" columns="username"/>
+    </table>
+    <table name="users_authorities" schema="public" catalog="firstdb" type="TABLE">
+      <column name="authority_id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="username" sqlType="varchar" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="users_authorities_pkey" columns="username,authority_id"/>
+      <foreign-key name="fk_o56sveib1du2so4bd7fg49s71" columns="authority_id" ref-table="authority" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_9rrru4mw9t493aomca3xyl8xb" columns="username" ref-table="users" ref-schema="public" ref-catalog="" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <procedure name="_pg_char_max_length" schema="information_schema" catalog="firstdb" type="2">
       <prototype return="true">

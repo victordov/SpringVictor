@@ -1,5 +1,6 @@
 package md.victordov.controller;
 
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/index")
 public class MainController {
+    UserDetails userDetails = null;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String indexPage() {
