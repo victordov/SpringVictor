@@ -3,11 +3,21 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+
 
 
 <div class="row">
-    <div class="col-lg-2"></div>
+    <div class="col-lg-2">
+
+
+
+
+    </div>
     <div class="col-lg-8">
+        <sec:authorize ifAllGranted="ROLE_ADMIN">
+            <p>Yey, you are admin</p>
+        </sec:authorize>
         <c:choose>
             <c:when test="${notFound==true}">
                 <h2 class="has-error">No students are added</h2>

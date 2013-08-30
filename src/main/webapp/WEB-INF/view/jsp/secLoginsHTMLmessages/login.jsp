@@ -1,20 +1,15 @@
 <%@ page session="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<html>
 
-<head>
-    <title>Login: Spring Security Web Application</title>
 
-    <style TYPE="text/css">
-        .errormessage {
-            color: red;
-        }
 
-        .successmessage {
-        }
-    </style>
-</head>
+
+
+
+
+
+
 
 <body onload='document.loginForm.j_username.focus();'>
 
@@ -32,7 +27,8 @@
     <table>
         <tr>
             <td>Username</td>
-            <td><input id="usernameField" type="text" name="j_username"
+            <td>
+                <input id="usernameField" type="text" name="j_username"
                        value="<c:out value="${SPRING_SECURITY_LAST_USERNAME}"/>"/></td>
         </tr>
         <tr>
