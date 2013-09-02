@@ -1,4 +1,4 @@
-package md.victordov.dao.Inf;
+package md.victordov.service.inf;
 
 import md.victordov.db.securityBeans.UserDb;
 
@@ -8,11 +8,10 @@ import java.util.List;
  * Created with IntelliJ IDEA.
  * User: vdovgaliuc
  * Date: 8/28/13
- * Time: 1:02 PM
+ * Time: 1:23 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface UserDbDao {
-    // C R U D
+public interface UserDbService {
     List<UserDb> findAll();
 
     UserDb findById(String username);
@@ -22,5 +21,4 @@ public interface UserDbDao {
     void delete(UserDb userDb);
 
     void update(UserDb userDb);
-
 }

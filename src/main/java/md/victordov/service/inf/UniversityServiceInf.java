@@ -1,4 +1,4 @@
-package md.victordov.service.Inf;
+package md.victordov.service.inf;
 
 import md.victordov.db.beans.University;
 

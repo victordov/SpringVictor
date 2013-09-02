@@ -1,4 +1,4 @@
-package md.victordov.dao.Inf;
+package md.victordov.dao.inf;
 
 import md.victordov.db.beans.Curs;
 
