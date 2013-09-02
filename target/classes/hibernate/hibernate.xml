@@ -47,13 +47,14 @@
         <property name="packagesToScan">
             <list> <!--list of beans used to map tables , will scan folder and map classes to  tables-->
                 <value>md.victordov.db.beans</value>
+                <value>md.victordov.db.securityBeans</value>
             </list>
         </property>
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.hbm2ddl.auto">${${environement}.jdbc.hbm2ddl}</prop>
                 <prop key="hibernate.dialect">${${environement}.hibernate.dialect}</prop>
-                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.show_sql">false</prop>
                 <prop key="hibernate.format_sql">true</prop>
                 <!-- <prop key="hibernate.connection.autocommit">false</prop> -->
                 <prop key="hibernate.connection.release_mode">after_transaction</prop>

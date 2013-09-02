@@ -1,16 +1,19 @@
 <web-app version="2.4"
-	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+         xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-	<display-name>Spring MVC Application</display-name>
+    <display-name>Spring MVC Application</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:/hibernate/hibernate.xml
-                     classpath:springVictor-spring.xml
+            classpath:springVictor-spring.xml
+            classpath:springVictor-security.xml
         </param-value>
     </context-param>
+
+
     <filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -28,6 +31,9 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+
+
+    <!-- Open Session activation  -->
     <filter>
         <filter-name>OpenSessionInViewFilter</filter-name>
         <filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
@@ -37,27 +43,52 @@
             <param-value>ALWAYS</param-value>
         </init-param>
     </filter>
-    <!-- Open Session activation -->
+
 
     <filter-mapping>
         <filter-name>OpenSessionInViewFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <!--End open session-->
 
+    <!-- Rest methods like put,get,delete activation -->
     <filter>
         <filter-name>httpMethodFilter</filter-name>
         <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
     </filter>
+
     <filter-mapping>
         <filter-name>httpMethodFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <!-- End rest methods like put,get,delete activation -->
 
+    <!--Spring Security -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!--End Spring Security -->
 
 
 
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <listener>
+        <listener-class>
+            org.springframework.security.web.session.HttpSessionEventPublisher
+        </listener-class>
+    </listener>
+
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
     </listener>
 
     <servlet>
@@ -74,18 +105,31 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.json</url-pattern>
     </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.xml</url-pattern>
     </servlet-mapping>
+
+    <error-page>
+        <error-code>403</error-code>
+        <location>/accessDenied.html</location>
+    </error-page>
+
+    <error-page>
+        <error-code>405</error-code>
+        <location>/accessDenied.html</location>
+    </error-page>
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
