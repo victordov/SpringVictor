@@ -1,8 +1,8 @@
 package md.victordov.service;
 
-import md.victordov.dao.Inf.UserDbDao;
+import md.victordov.dao.inf.UserDbDao;
 import md.victordov.db.securityBeans.UserDb;
-import md.victordov.service.Inf.UserDbService;
+import md.victordov.service.inf.UserDbService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -28,7 +28,7 @@
                                     <li id="greeting">
                                         <div>
                                             Welcome
-                                            <sec:authentication property="name" />
+                                            <sec:authentication property="name"/>
                                         </div>
                                     </li>
                                     <c:url var="logoutUrl" value="/logout.html"/>

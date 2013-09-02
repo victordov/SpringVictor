@@ -1,7 +1,7 @@
 package md.victordov.service;
 
 import md.victordov.db.securityBeans.UserDb;
-import md.victordov.service.Inf.UserDbService;
+import md.victordov.service.inf.UserDbService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

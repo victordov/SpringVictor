@@ -25,17 +25,26 @@ public class Authority implements GrantedAuthority {
         this.id = id;
     }
 
+    public Authority(){
+
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
 
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
+    }
+
+    public String getRoleName() {
+        return roleName;
+    }
+
     @Column(name = "role_name")
     String roleName;
 
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "users_authorities",
-            joinColumns = {@JoinColumn(name = "authority_id")},
-            inverseJoinColumns = {@JoinColumn(name = "username")})
+    @ManyToMany(mappedBy = "authoritySet",fetch = FetchType.LAZY)
     Set<UserDb> userDbSet = new HashSet<UserDb>();
 
     @Override

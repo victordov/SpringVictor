@@ -1,7 +1,7 @@
 package md.victordov.service;
 
 import md.victordov.formObjects.UploadItem;
-import md.victordov.service.Inf.UploadServiceInf;
+import md.victordov.service.inf.UploadServiceInf;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

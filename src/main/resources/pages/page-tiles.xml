@@ -58,5 +58,11 @@
         <put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp"/>
     </definition>
 
+    <!-- Registered user manipulation -->
+    <definition name="userDisplay" extends="base.definition">
+        <put-attribute name="title" value="Add authorities to user"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/usrs/usrDisplay.jsp"/>
+    </definition>
+
 
 </tiles-definitions>	

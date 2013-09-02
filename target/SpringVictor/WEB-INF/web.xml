@@ -32,7 +32,6 @@
     </filter-mapping>
 
 
-
     <!-- Open Session activation  -->
     <filter>
         <filter-name>OpenSessionInViewFilter</filter-name>
@@ -74,7 +73,6 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <!--End Spring Security -->
-
 
 
     <listener>

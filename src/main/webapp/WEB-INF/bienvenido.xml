@@ -6,11 +6,8 @@
 http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
     <view-state id="bienvenido">
-        <transition on="next" to="list"></transition>
+        <transition on="next" to="ololo"></transition>
     </view-state>
-    <view-state id="list">
-        <on-render>
-            <evaluate expression="carService.getCars()" result="requestScope.cars"></evaluate>
-        </on-render>
+    <view-state id="ololo">
     </view-state>
 </flow>

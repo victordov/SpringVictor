@@ -10,7 +10,8 @@
     <!--<security:debug/>-->
     <security:http auto-config='true' use-expressions="true" access-denied-page="/accessDenied.html">
         <security:intercept-url pattern="/student/**" access="hasRole('ROLE_ADMIN')"/>
-        <security:intercept-url pattern="/**" access="permitAll" />
+        <security:intercept-url pattern="/usrs/**" access="hasRole('ROLE_ADMIN')"/>
+        <security:intercept-url pattern="/**" access="permitAll"/>
         <!--<security:access-denied-handler ref="myAccessDeniedHandler" />-->
 
         <!--<security:anonymous />-->
@@ -19,7 +20,6 @@
         <!--<security:intercept-url pattern="/logout*" access="permitAll"/>-->
         <!--<security:intercept-url pattern="/index*" access="permitAll"/>-->
         <!--<security:intercept-url pattern="/accessDenied.html" access="permitAll"/>-->
-        <security:intercept-url pattern="/student/**" access="hasRole('ROLE_ADMIN')"/>
         <!--<security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>-->
 
         <security:logout logout-url="/logout.html"
@@ -46,12 +46,11 @@
 
     <!-- handler for authorization failure.  Will redirect to the login page. -->
     <!--<bean id="myAccessDeniedHandler" class="org.springframework.security.web.access.AccessDeniedHandlerImpl">-->
-        <!--<property name="errorPage" value="/accessDenied.html" />-->
+    <!--<property name="errorPage" value="/accessDenied.html" />-->
     <!--</bean>-->
 
     <bean id="sessionRegistry"
           class="org.springframework.security.core.session.SessionRegistryImpl"/>
-
 
 
     <!--<security:authentication-manager>-->

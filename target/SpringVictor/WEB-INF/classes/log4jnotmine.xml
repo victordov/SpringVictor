@@ -1,70 +1,70 @@
 <!--<?xml version="1.0" encoding="UTF-8"?>-->
 <!--<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">-->
 <!--<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"-->
-                     <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
-                     <!--xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">-->
+<!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">-->
 
-    <!--&lt;!&ndash; Appenders &ndash;&gt;-->
-    <!--&lt;!&ndash;<appender name="console" class="org.apache.log4j.ConsoleAppender">&ndash;&gt;-->
-        <!--&lt;!&ndash;<param name="Target" value="System.out"/>&ndash;&gt;-->
-        <!--&lt;!&ndash;<layout class="org.apache.log4j.PatternLayout">&ndash;&gt;-->
-            <!--&lt;!&ndash;<param name="ConversionPattern" value="%-5p: %c - %m%n"/>&ndash;&gt;-->
-        <!--&lt;!&ndash;</layout>&ndash;&gt;-->
-    <!--&lt;!&ndash;</appender>&ndash;&gt;-->
+<!--&lt;!&ndash; Appenders &ndash;&gt;-->
+<!--&lt;!&ndash;<appender name="console" class="org.apache.log4j.ConsoleAppender">&ndash;&gt;-->
+<!--&lt;!&ndash;<param name="Target" value="System.out"/>&ndash;&gt;-->
+<!--&lt;!&ndash;<layout class="org.apache.log4j.PatternLayout">&ndash;&gt;-->
+<!--&lt;!&ndash;<param name="ConversionPattern" value="%-5p: %c - %m%n"/>&ndash;&gt;-->
+<!--&lt;!&ndash;</layout>&ndash;&gt;-->
+<!--&lt;!&ndash;</appender>&ndash;&gt;-->
 
-    <!--&lt;!&ndash; Application Loggers &ndash;&gt;-->
-    <!--<logger name="md.victordov.controller">-->
-        <!--<level value="DEBUG"/>-->
-    <!--</logger>-->
+<!--&lt;!&ndash; Application Loggers &ndash;&gt;-->
+<!--<logger name="md.victordov.controller">-->
+<!--<level value="DEBUG"/>-->
+<!--</logger>-->
 
-    <!--&lt;!&ndash; 3rdparty Loggers &ndash;&gt;-->
-    <!--<logger name="org.springframework.core">-->
-        <!--<level value="info"/>-->
-    <!--</logger>-->
+<!--&lt;!&ndash; 3rdparty Loggers &ndash;&gt;-->
+<!--<logger name="org.springframework.core">-->
+<!--<level value="info"/>-->
+<!--</logger>-->
 
-    <!--<logger name="org.springframework.security">-->
-        <!--<level value="debug"/>-->
-    <!--</logger>-->
+<!--<logger name="org.springframework.security">-->
+<!--<level value="debug"/>-->
+<!--</logger>-->
 
-    <!--<logger name="org.springframework.beans">-->
-        <!--<level value="info"/>-->
-    <!--</logger>-->
+<!--<logger name="org.springframework.beans">-->
+<!--<level value="info"/>-->
+<!--</logger>-->
 
-    <!--<logger name="org.springframework.context">-->
-        <!--<level value="info"/>-->
-    <!--</logger>-->
+<!--<logger name="org.springframework.context">-->
+<!--<level value="info"/>-->
+<!--</logger>-->
 
-    <!--<logger name="org.springframework.web">-->
-        <!--<level value="info"/>-->
-    <!--</logger>-->
+<!--<logger name="org.springframework.web">-->
+<!--<level value="info"/>-->
+<!--</logger>-->
 
-    <!--&lt;!&ndash; #log4j.logger.org.hibernate.SQL=DEBUG #log4j.logger.org.hibernate.jdbc=DEBUG-->
-		<!--#log4j.logger.org.hibernate.transaction=DEBUG #log4j.logger.org.hibernate.impl.SessionImpl=TRACE &ndash;&gt;-->
+<!--&lt;!&ndash; #log4j.logger.org.hibernate.SQL=DEBUG #log4j.logger.org.hibernate.jdbc=DEBUG-->
+<!--#log4j.logger.org.hibernate.transaction=DEBUG #log4j.logger.org.hibernate.impl.SessionImpl=TRACE &ndash;&gt;-->
 
-    <!--<logger name="org.hibernate.SQL">-->
-        <!--<level value="DEBUG"/>-->
-    <!--</logger>-->
-
-
-    <!--<logger name="org.hibernate.jdbc">-->
-        <!--<level value="DEBUG"/>-->
-    <!--</logger>-->
+<!--<logger name="org.hibernate.SQL">-->
+<!--<level value="DEBUG"/>-->
+<!--</logger>-->
 
 
-    <!--<logger name="org.hibernate.transaction">-->
-        <!--<level value="DEBUG"/>-->
-    <!--</logger>-->
+<!--<logger name="org.hibernate.jdbc">-->
+<!--<level value="DEBUG"/>-->
+<!--</logger>-->
 
 
-    <!--<logger name="org.hibernate.impl.SessionImpl">-->
-        <!--<level value="TRACE"/>-->
-    <!--</logger>-->
+<!--<logger name="org.hibernate.transaction">-->
+<!--<level value="DEBUG"/>-->
+<!--</logger>-->
 
-    <!--&lt;!&ndash;&lt;!&ndash; Root Logger &ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;<root>&ndash;&gt;-->
-        <!--&lt;!&ndash;<priority value="warn"/>&ndash;&gt;-->
-        <!--&lt;!&ndash;<appender-ref ref="console"/>&ndash;&gt;-->
-    <!--&lt;!&ndash;</root>&ndash;&gt;-->
+
+<!--<logger name="org.hibernate.impl.SessionImpl">-->
+<!--<level value="TRACE"/>-->
+<!--</logger>-->
+
+<!--&lt;!&ndash;&lt;!&ndash; Root Logger &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<root>&ndash;&gt;-->
+<!--&lt;!&ndash;<priority value="warn"/>&ndash;&gt;-->
+<!--&lt;!&ndash;<appender-ref ref="console"/>&ndash;&gt;-->
+<!--&lt;!&ndash;</root>&ndash;&gt;-->
 
 
 <!--</log4j:configuration>-->

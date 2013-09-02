@@ -49,13 +49,19 @@
     </definition>
 
     <!--<definition name="logout" extends="base.definition">-->
-        <!--<put-attribute name="title" value="Logout Page"/>-->
-        <!--<put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/logout.jsp"/>-->
+    <!--<put-attribute name="title" value="Logout Page"/>-->
+    <!--<put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/logout.jsp"/>-->
     <!--</definition>-->
 
     <definition name="login" extends="base.definition">
         <put-attribute name="title" value="Login: Spring Security Web Application"/>
         <put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp"/>
+    </definition>
+
+    <!-- Registered user manipulation -->
+    <definition name="userDisplay" extends="base.definition">
+        <put-attribute name="title" value="Add authorities to user"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/usrs/usrDisplay.jsp"/>
     </definition>
 
 

@@ -5,6 +5,7 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:util="http://www.springframework.org/schema/util"
        xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:webflow="http://www.springframework.org/schema/webflow-config"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                           http://www.springframework.org/schema/beans/spring-beans.xsd
                           http://www.springframework.org/schema/context
@@ -12,7 +13,7 @@
                           http://www.springframework.org/schema/mvc
                           http://www.springframework.org/schema/mvc/spring-mvc.xsd
                           http://www.springframework.org/schema/util
-                          http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+                          http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd http://www.springframework.org/schema/webflow-config http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd">
 
     <!-- Enable annotation driven controllers, validation etc... -->
     <mvc:annotation-driven/>
@@ -20,7 +21,6 @@
 
     <!--<context:component-scan base-package="md.victordov.controller"/>-->
     <context:component-scan base-package="md.victordov.controller"/>
-    <!--<security:debug/>-->
     <security:global-method-security jsr250-annotations="enabled" pre-post-annotations="enabled"
                                      secured-annotations="enabled" proxy-target-class="true">
         <!--<security:protect-pointcut expression="execution(* md.victordov.service.*.*ServiceInf*.*(..))" -->
@@ -141,5 +141,15 @@
     </mvc:interceptors>
 
 
+    <!-- Spring Web flow -->
+    <bean name="/*" class="org.springframework.webflow.mvc.servlet.FlowController">
+        <property name="flowExecutor" ref="flowExecutor" />
+    </bean>
+
+    <webflow:flow-executor id="flowExecutor"></webflow:flow-executor>
+
+    <webflow:flow-registry id="flowRegistry">
+        <webflow:flow-location path="/WEB-INF/bienvenido.xml"></webflow:flow-location>
+    </webflow:flow-registry>
 </beans>
 

@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1331bbb1-5a6f-41da-9333-10abce73ec3b" name="Default" comment="working logs">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringVictor.iml" afterPath="$PROJECT_DIR$/SpringVictor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringVictor_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringVictor_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/inf/AuthorityDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/AuthorityDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/AuthorityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/AuthorityServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UsersController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bienvenido.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bienvenido.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ololo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/usrs/usrDisplay.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/CursDaoInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/inf/CursDaoInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/StudentDaoInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/inf/StudentDaoInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/UniversityDaoInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/inf/UniversityDaoInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/UserDbDao.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/inf/UserDbDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/CursServiceInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/CursServiceInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/StudentServiceInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/StudentServiceInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UniversityServiceInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/UniversityServiceInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UploadServiceInf.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/UploadServiceInf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UserDbService.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/inf/UserDbService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/logging.propertiesDISABLED" afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/CursDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/CursDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/CursServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/CursServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/StudentDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/StudentDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/StudentServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/UniversitateServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UniversitateServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UniversityController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UniversityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/UniversityDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/UniversityDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UploadController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UploadController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/UploaderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UploaderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/dao/UserDbDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/UserDbDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDbServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDbServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDetailsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" afterPath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringVictor.iws" />
@@ -11,7 +45,7 @@
     <file path="/Dummy.txt" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378123375080" ignored="false" />
     <file path="/fragment.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377869876529" ignored="false" />
     <file path="/hello.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376299163312" ignored="false" />
-    <file path="/pom.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875850759" ignored="false" />
+    <file path="/pom.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378123846972" ignored="false" />
     <file path="/PostgreSqlDb" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070901751" ignored="false" />
     <file path="/jdbc.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376914324256" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376641991301" ignored="false" />
@@ -49,10 +83,10 @@
     <file path="/XQueueRespImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642694965" ignored="false" />
     <file path="$PROJECT_DIR$/../PetParade/src/main/java/com/winify/petparad/db/beans/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642797440" ignored="false" />
     <file path="/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642777298" ignored="false" />
-    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875390118" ignored="false" />
+    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378128741860" ignored="false" />
     <file path="/AppTests.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376914607985" ignored="false" />
     <file path="/layout-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377859350170" ignored="false" />
-    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377859386718" ignored="false" />
+    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378131606131" ignored="false" />
     <file path="/LogicalConstants.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376915117537" ignored="false" />
     <file path="/springVictor-spring.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377855074205" ignored="false" />
     <file path="/baseLayout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377847025475" ignored="false" />
@@ -61,7 +95,7 @@
     <file path="/editStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377512710549" ignored="false" />
     <file path="/sessionFactory" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070858309" ignored="false" />
     <file path="/srchStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092286493" ignored="false" />
-    <file path="/log4j.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377870816533" ignored="false" />
+    <file path="/log4j.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378133168677" ignored="false" />
     <file path="/log4jnotmine.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377854953096" ignored="false" />
     <file path="/header.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377782228041" ignored="false" />
     <file path="/DummyFile.xpath" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092796781" ignored="false" />
@@ -94,9 +128,9 @@
     <file path="/message_ro.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377520343646" ignored="false" />
     <file path="/MyAspect.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377529458913" ignored="false" />
     <file path="/FF.aj" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377529727825" ignored="false" />
-    <file path="/springVictor-security.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377860699369" ignored="false" />
+    <file path="/springVictor-security.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378131373669" ignored="false" />
     <file path="/User.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377682658447" ignored="false" />
-    <file path="/Authority.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377686900962" ignored="false" />
+    <file path="/Authority.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378138069238" ignored="false" />
     <file path="/UsersDao.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685278497" ignored="false" />
     <file path="/UserDbDaoImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685329026" ignored="false" />
     <file path="/UserDbServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685553762" ignored="false" />
@@ -114,6 +148,15 @@
     <file path="$PROJECT_DIR$/../SpringWebflow/SpringWebflow.iml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377865674708" ignored="false" />
     <file path="/GlobalExceptionHandler.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377873753769" ignored="false" />
     <file path="/JaxbList.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875507896" ignored="false" />
+    <file path="/springVictor-webflow-config.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378127854709" ignored="false" />
+    <file path="/mywebflow.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378127620538" ignored="false" />
+    <file path="/bienvenido.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378129054375" ignored="false" />
+    <file path="/UsersController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378139008215" ignored="false" />
+    <file path="/usrDisplay.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378138775641" ignored="false" />
+    <file path="/AuthorityDao.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378132238088" ignored="false" />
+    <file path="/AuthorityDaoImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378132476982" ignored="false" />
+    <file path="/AuthorityService.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378132394612" ignored="false" />
+    <file path="/AuthorityServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378132833348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,55 +228,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java">
+      <file leaf-file-name="UsersController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+            <state line="54" column="14" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.6108491">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDb.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/UserDb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="31" selection-start="3031" selection-end="3043" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#3057#3068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springVictor-security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="3" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.48">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JavaBean.java">
+      <file leaf-file-name="Authority.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="54" column="73" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#971#979#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JaxbList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java">
+      <file leaf-file-name="usrDisplay.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/usrs/usrDisplay.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="483" selection-end="520" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="21" selection-start="9917" selection-end="9930" vertical-scroll-proportion="0.027881041">
+            <state line="18" column="106" selection-start="781" selection-end="781" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -242,7 +282,7 @@
       <file leaf-file-name="springVictor-mvc-dispacher.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="76" selection-start="3456" selection-end="3492" vertical-scroll-proportion="0.0">
+            <state line="79" column="26" selection-start="4355" selection-end="4367" vertical-scroll-proportion="-10.48">
               <folding />
             </state>
           </provider>
@@ -266,22 +306,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/layout-tiles.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/errorLayout.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/JavaBean.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/exceptions/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mywebflow.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/asdf.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bienvenido.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ololo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/bienvenido.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/AuthorityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/dao/AuthorityDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/AuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/usrs/usrDisplay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/UsersController.java" />
       </list>
     </option>
   </component>
@@ -315,7 +355,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="48" />
-    <option name="y" value="-1028" />
+    <option name="y" value="-4" />
     <option name="width" value="1233" />
     <option name="height" value="1029" />
   </component>
@@ -476,10 +516,6 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -511,7 +547,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,6 +582,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usrs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,44 +624,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secLoginsHTMLmessages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +753,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="formObjects" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="securityBeans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -781,67 +787,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="validator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -908,19 +854,20 @@
       <recent name="md.victordov.service" />
       <recent name="md.victordov.dao" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="md.victordov.db" />
-      <recent name="md.victordov" />
-      <recent name="md.victordov.service" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="md.victordov.models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/SecLoginsHTMLmessages" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="md.victordov.models" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="md.victordov.db" />
+      <recent name="md.victordov" />
+      <recent name="md.victordov.service" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat6_Server">
@@ -1253,17 +1200,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-1028" width="1233" height="1029" extended-state="6" />
-    <editor active="false" />
+    <frame x="48" y="-4" width="1233" height="1029" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="54" y="458" width="1185" height="288" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39264327" sideWeight="0.336" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6251429" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978903" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5451428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38285714" sideWeight="0.50042194" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1277,7 +1224,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30042195" sideWeight="0.67085713" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31476793" sideWeight="0.56457144" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43542856" sideWeight="0.49957806" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1380,129 +1327,125 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="93" selection-start="2976" selection-end="2976" vertical-scroll-proportion="1.5035378">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4481#4490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="49" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.6108491">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE.jar!/META-INF/spring-form.tld">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="219" selection-end="296" vertical-scroll-proportion="0.0">
+        <state line="913" column="20" selection-start="28638" selection-end="28644" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+        <state line="371" column="23" selection-start="8106" selection-end="8106" vertical-scroll-proportion="0.17334905">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-spring.xml">
+    <entry file="jar:///usr/lib/jvm/jdk1.6.0_45/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="100" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.37062937">
+        <state line="323" column="9" selection-start="14885" selection-end="14885" vertical-scroll-proportion="0.33190578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/layout-tiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="508" selection-end="525" vertical-scroll-proportion="0.33415842">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="52" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-13.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/exceptions/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3087167">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JavaBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/University.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.33259913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="483" selection-end="520" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="21" selection-start="9917" selection-end="9930" vertical-scroll-proportion="0.027881041">
+        <state line="10" column="3" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.48">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="76" selection-start="3456" selection-end="3492" vertical-scroll-proportion="0.0">
+        <state line="79" column="26" selection-start="4355" selection-end="4367" vertical-scroll-proportion="-10.48">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="28" selection-start="15777" selection-end="15777" vertical-scroll-proportion="0.18819188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/AuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="582" selection-end="582" vertical-scroll-proportion="0.36319613">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/inf/AuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="290" selection-end="290" vertical-scroll-proportion="0.23607749">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.4.RELEASE/spring-security-core-3.1.4.RELEASE-sources.jar!/org/springframework/security/core/GrantedAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="73" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#971#979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/UserDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="31" selection-start="3031" selection-end="3043" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3057#3068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/usrs/usrDisplay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="106" selection-start="781" selection-end="781" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="14" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.6108491">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

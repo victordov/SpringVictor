@@ -1,6 +1,6 @@
 package md.victordov.dao;
 
-import md.victordov.dao.Inf.UserDbDao;
+import md.victordov.dao.inf.UserDbDao;
 import md.victordov.db.securityBeans.UserDb;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

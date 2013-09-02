@@ -2,7 +2,7 @@ package md.victordov.controller;
 
 import md.victordov.form.validator.UploadItemForm;
 import md.victordov.formObjects.UploadItem;
-import md.victordov.service.Inf.UploadServiceInf;
+import md.victordov.service.inf.UploadServiceInf;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

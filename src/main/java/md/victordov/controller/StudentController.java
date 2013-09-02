@@ -1,7 +1,7 @@
 package md.victordov.controller;
 
 import md.victordov.db.beans.Student;
-import md.victordov.service.Inf.StudentServiceInf;
+import md.victordov.service.inf.StudentServiceInf;
 import org.apache.log4j.Logger;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.beans.factory.annotation.Autowired;

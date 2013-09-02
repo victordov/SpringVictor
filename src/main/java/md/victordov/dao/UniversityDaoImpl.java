@@ -1,6 +1,6 @@
 package md.victordov.dao;
 
-import md.victordov.dao.Inf.UniversityDaoInf;
+import md.victordov.dao.inf.UniversityDaoInf;
 import md.victordov.db.beans.University;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

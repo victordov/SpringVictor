@@ -1,8 +1,8 @@
 package md.victordov.service;
 
-import md.victordov.dao.Inf.CursDaoInf;
+import md.victordov.dao.inf.CursDaoInf;
 import md.victordov.db.beans.Curs;
-import md.victordov.service.Inf.CursServiceInf;
+import md.victordov.service.inf.CursServiceInf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

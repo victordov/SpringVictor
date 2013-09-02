@@ -1,6 +1,6 @@
 package md.victordov.dao;
 
-import md.victordov.dao.Inf.StudentDaoInf;
+import md.victordov.dao.inf.StudentDaoInf;
 import md.victordov.db.beans.Student;
 import org.hibernate.FetchMode;
 import org.hibernate.Session;
