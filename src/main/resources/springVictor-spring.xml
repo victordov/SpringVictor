@@ -10,7 +10,7 @@
     <!--<import resource="springVictor-security.xml"/>-->
 
     <aop:aspectj-autoproxy/>
-    <bean id="myAsp" class="md.victordov.aspect.MyAspect"/>
+    <bean id="myAspTimer" class="md.victordov.aspect.MyAspect"/>
     <!--    load properties files, contains configuration files see README for description -->
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">

@@ -2,32 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1331bbb1-5a6f-41da-9333-10abce73ec3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/UserDbDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/dao/UserDbDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UserDbService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDbServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDetailsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/accessDenied.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/logout.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Users.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/UserDb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/exceptions/GlobalExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JavaBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/logging.propertiesRENAMED" afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/insertStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/insertStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringVictor.iml" afterPath="$PROJECT_DIR$/SpringVictor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringVictor_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringVictor_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UniversityController.java" afterPath="$PROJECT_DIR$/src/main/java/md/victordov/controller/UniversityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/baseLayout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/baseLayout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/errorLayout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/errorLayout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/parts/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/layout-tiles.xml" afterPath="$PROJECT_DIR$/src/main/resources/pages/layout-tiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4jnotmine.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4jnotmine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/logout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/logout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" afterPath="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/project.propertiesRENAMED" afterPath="$PROJECT_DIR$/src/main/resources/project.propertiesRENAMED" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springVictor-spring.xml" afterPath="$PROJECT_DIR$/src/main/resources/springVictor-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student/student.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student/student.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringVictor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377683473393" ignored="false" />
-    <file path="/fragment.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377681592167" ignored="false" />
+    <file path="/Dummy.txt" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1378122571172" ignored="false" />
+    <file path="/fragment.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377869876529" ignored="false" />
     <file path="/hello.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376299163312" ignored="false" />
-    <file path="/pom.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377677359350" ignored="false" />
+    <file path="/pom.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875850759" ignored="false" />
     <file path="/PostgreSqlDb" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070901751" ignored="false" />
     <file path="/jdbc.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376914324256" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376641991301" ignored="false" />
@@ -35,10 +43,10 @@
     <file path="/StudentDaoImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377176981462" ignored="false" />
     <file path="/StudentDao.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376303016947" ignored="false" />
     <file path="/StudentServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377176636373" ignored="false" />
-    <file path="/StudentController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377518629325" ignored="false" />
-    <file path="/student.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377177093589" ignored="false" />
-    <file path="/web.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377694002381" ignored="false" />
-    <file path="/Curs.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377175983802" ignored="false" />
+    <file path="/StudentController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377861558541" ignored="false" />
+    <file path="/student.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377861351529" ignored="false" />
+    <file path="/web.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377781634918" ignored="false" />
+    <file path="/Curs.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377762598519" ignored="false" />
     <file path="/dataSource" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376312561595" ignored="false" />
     <file path="/University.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377175675815" ignored="false" />
     <file path="/a.dummy" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377006211772" ignored="false" />
@@ -53,33 +61,33 @@
     <file path="/UniversityServiceInf.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376375085513" ignored="false" />
     <file path="/CursServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376375600629" ignored="false" />
     <file path="/UniversitateServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376375645652" ignored="false" />
-    <file path="/UniversityController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376377823210" ignored="false" />
+    <file path="/UniversityController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377779520933" ignored="false" />
     <file path="/university.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377512901174" ignored="false" />
     <file path="/studentOne.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376382363867" ignored="false" />
     <file path="/error.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376379873270" ignored="false" />
     <file path="/editStudentPage.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376913116608" ignored="false" />
     <file path="/SearchPage.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376388491209" ignored="false" />
     <file path="/searchPage.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376399228412" ignored="false" />
-    <file path="/hibernate.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377682229745" ignored="false" />
+    <file path="/hibernate.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377870827672" ignored="false" />
     <file path="$PROJECT_DIR$/../PetParade/src/main/java/com/winify/petparad/application/dao/XQueueRespImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642902784" ignored="false" />
     <file path="/XQueueRespImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642694965" ignored="false" />
     <file path="$PROJECT_DIR$/../PetParade/src/main/java/com/winify/petparad/db/beans/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642797440" ignored="false" />
     <file path="/XQueueResp.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376642777298" ignored="false" />
-    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377520225358" ignored="false" />
+    <file path="/springVictor-mvc-dispacher.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875390118" ignored="false" />
     <file path="/AppTests.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376914607985" ignored="false" />
-    <file path="/layout-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092742366" ignored="false" />
-    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377692915164" ignored="false" />
+    <file path="/layout-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377859350170" ignored="false" />
+    <file path="/page-tiles.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377859386718" ignored="false" />
     <file path="/LogicalConstants.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1376915117537" ignored="false" />
-    <file path="/springVictor-spring.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377678451681" ignored="false" />
-    <file path="/baseLayout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377508779925" ignored="false" />
-    <file path="/index.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377519200342" ignored="false" />
+    <file path="/springVictor-spring.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377855074205" ignored="false" />
+    <file path="/baseLayout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377847025475" ignored="false" />
+    <file path="/index.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377852448469" ignored="false" />
     <file path="/fd.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377005396862" ignored="false" />
     <file path="/editStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377512710549" ignored="false" />
     <file path="/sessionFactory" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377070858309" ignored="false" />
     <file path="/srchStudent.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092286493" ignored="false" />
-    <file path="/log4j.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377178732229" ignored="false" />
-    <file path="/log4jnotmine.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377071579376" ignored="false" />
-    <file path="/header.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377518873772" ignored="false" />
+    <file path="/log4j.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377870816533" ignored="false" />
+    <file path="/log4jnotmine.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377854953096" ignored="false" />
+    <file path="/header.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377782228041" ignored="false" />
     <file path="/DummyFile.xpath" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377092796781" ignored="false" />
     <file path="/MappingJackson2HttpMessageConverter.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377098152831" ignored="false" />
     <file path="/Groovy Console" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377152490679" ignored="false" />
@@ -106,20 +114,30 @@
     <file path="/index.html" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377506852034" ignored="false" />
     <file path="/UploadItem.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377513485941" ignored="false" />
     <file path="/FileUploadValidator.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377516728886" ignored="false" />
-    <file path="/MainController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377691414173" ignored="false" />
+    <file path="/MainController.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377874175749" ignored="false" />
     <file path="/message_ro.properties" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377520343646" ignored="false" />
     <file path="/MyAspect.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377529458913" ignored="false" />
     <file path="/FF.aj" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377529727825" ignored="false" />
-    <file path="/springVictor-security.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377693932974" ignored="false" />
+    <file path="/springVictor-security.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377860699369" ignored="false" />
     <file path="/User.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377682658447" ignored="false" />
     <file path="/Authority.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377686900962" ignored="false" />
     <file path="/UsersDao.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685278497" ignored="false" />
     <file path="/UserDbDaoImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685329026" ignored="false" />
     <file path="/UserDbServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377685553762" ignored="false" />
     <file path="/UserDetailsServiceImpl.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377686798075" ignored="false" />
-    <file path="/accessDenied.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377691482813" ignored="false" />
+    <file path="/accessDenied.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377859246472" ignored="false" />
     <file path="/logout.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377691709068" ignored="false" />
-    <file path="/login.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377693016290" ignored="false" />
+    <file path="/login.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377861865704" ignored="false" />
+    <file path="/PerEval.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377759762403" ignored="false" />
+    <file path="/Dv.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377760077459" ignored="false" />
+    <file path="/a.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377777423199" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringSecurity/src/main/webapp/WEB-INF/pages/index.jsp" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377852448469" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringSecurity/src/main/webapp/WEB-INF/spring-config.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377854368742" ignored="false" />
+    <file path="/spring-config.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377865666641" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringWebflow/src/spring-config.xml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377865674708" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringWebflow/SpringWebflow.iml" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377865674708" ignored="false" />
+    <file path="/GlobalExceptionHandler.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377873753769" ignored="false" />
+    <file path="/JaxbList.java" changelist="1331bbb1-5a6f-41da-9333-10abce73ec3b" time="1377875507896" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +146,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="Commander">
-    <leftPanel />
-    <rightPanel />
+    <leftPanel url="file://$PROJECT_DIR$/lib" />
+    <rightPanel url="file://$PROJECT_DIR$" />
     <splitter proportion="0.5" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -144,6 +162,8 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -180,8 +200,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -190,7 +208,71 @@
     <favorites_list name="SpringVictor" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JavaBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JaxbList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="10" selection-start="483" selection-end="520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="269" column="21" selection-start="9917" selection-end="9930" vertical-scroll-proportion="0.018115941">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springVictor-mvc-dispacher.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="76" selection-start="3456" selection-end="3492" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -208,22 +290,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/dao/Inf/UserDbDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/dao/UserDbDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UserDbService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDbServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/UserDb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/db/securityBeans/Authority.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/springVictor-spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/accessDenied.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/logout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/layout-tiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts/errorLayout.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/JavaBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springVictor-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/exceptions/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -257,9 +339,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="48" />
-    <option name="y" value="-4" />
-    <option name="width" value="1704" />
-    <option name="height" value="1350" />
+    <option name="y" value="-1028" />
+    <option name="width" value="1233" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,6 +390,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,62 +467,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -471,6 +498,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,6 +591,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secLoginsHTMLmessages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -548,15 +689,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringVictor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,74 +746,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Inf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectMapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,136 +834,8 @@
               <option name="myItemId" value="victordov" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="securityBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Inf" />
+              <option name="myItemId" value="exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -902,56 +869,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringVictor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victordov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="61" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="80" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="80" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringGreetings/pom.xml" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="85" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="922" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="929" />
@@ -964,19 +900,19 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="project.structure.side.proportion" value="0.4484357" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -984,13 +920,14 @@
       <recent name="md.victordov.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/layouts" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
       <recent name="$PROJECT_DIR$/src/main/java/md/victordov/formObjects" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/locale" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="md.victordov.controller" />
       <recent name="md.victordov.db.securityBeans" />
       <recent name="md.victordov.service" />
       <recent name="md.victordov.dao" />
@@ -1004,6 +941,8 @@
       <recent name="md.victordov.models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/student" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/SecLoginsHTMLmessages" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
@@ -1021,6 +960,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1049,19 +1001,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1105,12 +1044,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
@@ -1177,6 +1110,12 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat6_Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
@@ -1306,7 +1245,11 @@
       <created>1377683480043</created>
       <updated>1377683480043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="configured security 1.0">
+      <created>1377694441809</created>
+      <updated>1377694441809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1330,24 +1273,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1704" height="1350" extended-state="6" />
+    <frame x="48" y="-1028" width="1233" height="1029" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="54" y="458" width="1185" height="288" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39264327" sideWeight="0.336" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6251429" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978903" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38171428" sideWeight="0.50042194" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38285714" sideWeight="0.50042194" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33028573" sideWeight="0.49957806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22109705" sideWeight="0.6" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1355,15 +1296,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31729957" sideWeight="0.62857145" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37142858" sideWeight="0.49957806" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30042195" sideWeight="0.56457144" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43542856" sideWeight="0.49957806" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33028573" sideWeight="0.49957806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990878" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885715" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1408,7 +1351,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="security beans db" />
+    <option name="LAST_COMMIT_MESSAGE" value="working logs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1426,6 +1369,8 @@
     <MESSAGE value="upload handling + multiple files" />
     <MESSAGE value="index.html working" />
     <MESSAGE value="security beans db" />
+    <MESSAGE value="configured security 1.0" />
+    <MESSAGE value="working logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1455,120 +1400,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="0" selection-end="3316" vertical-scroll-proportion="0.34526855">
+        <state line="85" column="93" selection-start="2976" selection-end="2976" vertical-scroll-proportion="1.5035378">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4481#4490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/page-tiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="49" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.6108491">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="219" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="100" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.37062937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="508" selection-end="525" vertical-scroll-proportion="0.33415842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="52" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-13.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/exceptions/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3087167">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JavaBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/University.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="0" selection-end="2734" vertical-scroll-proportion="0.28772378">
+        <state line="24" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.33259913">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/UploadItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/formObjects/JaxbList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="0" selection-end="795" vertical-scroll-proportion="0.34526855">
+        <state line="22" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/objectMapper/HibernateAwareObjectMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="0" selection-end="669" vertical-scroll-proportion="0.36445013">
+        <state line="11" column="10" selection-start="483" selection-end="520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UserDbService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="0" selection-end="458" vertical-scroll-proportion="0.23968042">
-          <folding>
-            <element signature="docComment;class#UserDbService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UploadServiceInf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="0" selection-end="372" vertical-scroll-proportion="0.118421055">
+        <state line="269" column="21" selection-start="9917" selection-end="9930" vertical-scroll-proportion="0.018115941">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/UniversityServiceInf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springVictor-mvc-dispacher.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="0" selection-end="488" vertical-scroll-proportion="0.13815789">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/StudentServiceInf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="0" selection-end="522" vertical-scroll-proportion="0.15345268">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/Inf/CursServiceInf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="0" selection-end="428" vertical-scroll-proportion="0.09590793">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/CursServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/UniversitateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/UploaderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/UserDbServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="docComment;class#UserDbServiceImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="docComment;class#UserDetailsServiceImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/util/LogicConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="398" selection-end="398" vertical-scroll-proportion="0.41447368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/victordov/service/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0025575447">
+        <state line="61" column="76" selection-start="3456" selection-end="3492" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

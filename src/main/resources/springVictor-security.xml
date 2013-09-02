@@ -7,8 +7,20 @@
        http://www.springframework.org/schema/security
        http://www.springframework.org/schema/security/spring-security.xsd">
 
-    <security:http auto-config='true'>
-        <security:intercept-url pattern="/student*" access="ROLE_ADMIN"/>
+    <!--<security:debug/>-->
+    <security:http auto-config='true' use-expressions="true" access-denied-page="/accessDenied.html">
+        <security:intercept-url pattern="/student/**" access="hasRole('ROLE_ADMIN')"/>
+        <security:intercept-url pattern="/**" access="permitAll"/>
+        <!--<security:access-denied-handler ref="myAccessDeniedHandler" />-->
+
+        <!--<security:anonymous />-->
+        <!--<security:intercept-url pattern="/web-resources/**" access="permitAll"/>-->
+        <!--<security:intercept-url pattern="/login*" access="permitAll"/>-->
+        <!--<security:intercept-url pattern="/logout*" access="permitAll"/>-->
+        <!--<security:intercept-url pattern="/index*" access="permitAll"/>-->
+        <!--<security:intercept-url pattern="/accessDenied.html" access="permitAll"/>-->
+        <security:intercept-url pattern="/student/**" access="hasRole('ROLE_ADMIN')"/>
+        <!--<security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>-->
 
         <security:logout logout-url="/logout.html"
                          logout-success-url="/login.html?loggedout=true"
@@ -18,17 +30,28 @@
                              password-parameter="pass"
                              always-use-default-target="false"
                              authentication-failure-url="/login.html?authfailed=true"
-                             default-target-url="/university.html"/>
-        <security:session-management
-                invalid-session-url="/login.html">
+                             default-target-url="/index.html"/>
+
+
+        <security:session-management invalid-session-url="/login.html">
             <security:concurrency-control
-                    error-if-maximum-exceeded="true" max-sessions="1" expired-url="/login.html"
+                    error-if-maximum-exceeded="true"
+                    max-sessions="1"
+                    expired-url="/login.html"
                     session-registry-ref="sessionRegistry"/>
         </security:session-management>
     </security:http>
 
+    <bean class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler"/>
+
+    <!-- handler for authorization failure.  Will redirect to the login page. -->
+    <!--<bean id="myAccessDeniedHandler" class="org.springframework.security.web.access.AccessDeniedHandlerImpl">-->
+    <!--<property name="errorPage" value="/accessDenied.html" />-->
+    <!--</bean>-->
+
     <bean id="sessionRegistry"
           class="org.springframework.security.core.session.SessionRegistryImpl"/>
+
 
     <!--<security:authentication-manager>-->
     <!--<security:authentication-provider>-->
@@ -40,7 +63,7 @@
     <!--</security:authentication-manager>-->
 
 
-    <bean id='userDetailsService' class='md.victordov.service.UserDetailsServiceImpl'></bean>
+    <bean id='userDetailsService' class='md.victordov.service.UserDetailsServiceImpl'/>
 
 
     <security:authentication-manager alias="authenticationManager">

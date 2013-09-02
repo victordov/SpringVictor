@@ -4,6 +4,7 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                           http://www.springframework.org/schema/beans/spring-beans.xsd
                           http://www.springframework.org/schema/context
@@ -11,13 +12,21 @@
                           http://www.springframework.org/schema/mvc
                           http://www.springframework.org/schema/mvc/spring-mvc.xsd
                           http://www.springframework.org/schema/util
-                          http://www.springframework.org/schema/util/spring-util.xsd">
+                          http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
     <!-- Enable annotation driven controllers, validation etc... -->
     <mvc:annotation-driven/>
 
 
+    <!--<context:component-scan base-package="md.victordov.controller"/>-->
     <context:component-scan base-package="md.victordov.controller"/>
+    <!--<security:debug/>-->
+    <security:global-method-security jsr250-annotations="enabled" pre-post-annotations="enabled"
+                                     secured-annotations="enabled" proxy-target-class="true">
+        <!--<security:protect-pointcut expression="execution(* md.victordov.service.*.*ServiceInf*.*(..))" -->
+        <!--access="ROLE_USER"/>-->
+    </security:global-method-security>
+
     <!--<context:property-placeholder location="classpath:config/#{envprop['environement']}/project.propertiesRENAMED"/> -->
     <!--REST -->
     <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
@@ -37,7 +46,6 @@
             </bean>
         </property>
 
-
         <property name="defaultViews">
             <list>
                 <!-- JSON View -->
@@ -50,7 +58,11 @@
 
                         <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
                             <property name="packagesToScan">
-                                <value>md.victordov.db.beans</value>
+                                <util:list>
+                                    <!--<value>md.victordov.db.beans</value>-->
+                                    <value>md.victordov.formObjects</value>
+                                </util:list>
+
                                 <!--<util:list>-->
                                 <!--<value>md.victordov.db.beans.Student</value>-->
                                 <!--<value>md.victordov.db.beans.Curs</value>-->
@@ -58,7 +70,6 @@
                                 <!--</util:list>-->
                             </property>
                         </bean>
-
                     </constructor-arg>
                 </bean>
 

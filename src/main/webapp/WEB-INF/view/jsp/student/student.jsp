@@ -6,14 +6,8 @@
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 
-
 <div class="row">
-    <div class="col-lg-2">
-
-
-
-
-    </div>
+    <div class="col-lg-2"></div>
     <div class="col-lg-8">
         <sec:authorize ifAllGranted="ROLE_ADMIN">
             <p>Yey, you are admin</p>

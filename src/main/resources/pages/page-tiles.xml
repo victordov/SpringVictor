@@ -7,10 +7,7 @@
         <put-attribute name="title" value="Index Page"/>
         <put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp"/>
     </definition>
-    <!--<definition name="index" extends="base.definition" >-->
-    <!--<put-attribute name="title" value="Start Page" />-->
-    <!--<put-attribute name="body" value="/WEB-INF/view/jsp/index.jsp" />-->
-    <!--</definition>-->
+
     <definition name="uploads" extends="base.definition">
         <put-attribute name="title" value="Upload"/>
         <put-attribute name="body" value="/WEB-INF/view/jsp/uploadsArray.jsp"/>
@@ -18,22 +15,22 @@
 
     <definition name="student" extends="base.definition">
         <put-attribute name="title" value="Student"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/student.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/student/student.jsp"/>
     </definition>
 
     <definition name="editStudent" extends="base.definition">
         <put-attribute name="title" value="Student Page"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/editStudent.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/student/editStudent.jsp"/>
     </definition>
 
     <definition name="srchStudent" extends="base.definition">
         <put-attribute name="title" value="Search Student - Course"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/srchStudent.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/student/srchStudent.jsp"/>
     </definition>
 
     <definition name="insertStudent" extends="base.definition">
         <put-attribute name="title" value="Search Student - Course"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/insertStudent.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/student/insertStudent.jsp"/>
     </definition>
 
     <definition name="university" extends="base.definition">
@@ -43,22 +40,22 @@
 
     <definition name="error" extends="base.definition">
         <put-attribute name="title" value="Error"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/error.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/error.jsp"/>
     </definition>
 
     <definition name="accessDenied" extends="base.definition">
         <put-attribute name="title" value="Access Denied"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/accessDenied.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/accessDenied.jsp"/>
     </definition>
 
-    <definition name="logout" extends="base.definition">
-        <put-attribute name="title" value="Logout Page"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/logout.jsp"/>
-    </definition>
+    <!--<definition name="logout" extends="base.definition">-->
+    <!--<put-attribute name="title" value="Logout Page"/>-->
+    <!--<put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/logout.jsp"/>-->
+    <!--</definition>-->
 
     <definition name="login" extends="base.definition">
-        <put-attribute name="title" value="Login Page"/>
-        <put-attribute name="body" value="/WEB-INF/view/jsp/login.jsp"/>
+        <put-attribute name="title" value="Login: Spring Security Web Application"/>
+        <put-attribute name="body" value="/WEB-INF/view/jsp/secLoginsHTMLmessages/login.jsp"/>
     </definition>
 
 

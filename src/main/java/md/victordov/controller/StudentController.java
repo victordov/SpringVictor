@@ -5,6 +5,7 @@ import md.victordov.service.Inf.StudentServiceInf;
 import org.apache.log4j.Logger;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -28,6 +29,7 @@ public class StudentController {
 
     @Autowired
     private StudentServiceInf studentServiceInf;
+
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String getAllStudents(ModelMap model) {
@@ -68,6 +70,7 @@ public class StudentController {
 
     //deletes & redirects
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public String deleteStudent(@PathVariable Integer id, ModelMap model) {
         studentServiceInf.delete(id);
         return "redirect:/student.html";

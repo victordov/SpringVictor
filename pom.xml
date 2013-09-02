@@ -59,6 +59,11 @@
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>3.2.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>3.2.0.RELEASE</version>
         </dependency>
@@ -182,22 +187,22 @@
             <version>3.1</version>
         </dependency>
         <!-- YouTube Data V3 support -->
-        <dependency>
-            <groupId>com.google.apis</groupId>
-            <artifactId>google-api-services-youtube</artifactId>
-            <version>v3-rev64-1.13.2-beta</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>com.google.apis</groupId>-->
+        <!--<artifactId>google-api-services-youtube</artifactId>-->
+        <!--<version>v3-rev64-1.13.2-beta</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>com.google.http-client</groupId>
-            <artifactId>google-http-client-jackson2</artifactId>
-            <version>1.13.1-beta</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.oauth-client</groupId>
-            <artifactId>google-oauth-client-jetty</artifactId>
-            <version>1.13.1-beta</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>com.google.http-client</groupId>-->
+        <!--<artifactId>google-http-client-jackson2</artifactId>-->
+        <!--<version>1.13.1-beta</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>com.google.oauth-client</groupId>-->
+        <!--<artifactId>google-oauth-client-jetty</artifactId>-->
+        <!--<version>1.13.1-beta</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
@@ -250,6 +255,21 @@
             <artifactId>spring-security-config</artifactId>
             <version>3.1.4.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
+            <version>3.1.4.RELEASE</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--Spring WebFlow -->
+        <dependency>
+            <groupId>org.springframework.webflow</groupId>
+            <artifactId>spring-webflow</artifactId>
+            <version>2.3.2.RELEASE</version>
+        </dependency>
+
 
         <!-- dependencies added by victor dovgaliuc -->
         <dependency>
@@ -309,6 +329,13 @@
             <version>2.2.2</version>
         </dependency>
 
+        <!-- Google guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>15.0-rc1</version>
+        </dependency>
+
     </dependencies>
 
 
@@ -330,6 +357,7 @@
                     </includes>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>

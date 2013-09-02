@@ -1,5 +1,6 @@
 package md.victordov.controller;
 
+
 import md.victordov.db.beans.University;
 import md.victordov.service.Inf.UniversityServiceInf;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,7 @@ public class UniversityController {
     @Autowired
     private UniversityServiceInf universityServiceInf;
 
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String getAllUniversities(ModelMap model) {
         List<University> universities = universityServiceInf.findAll();
@@ -31,6 +33,8 @@ public class UniversityController {
         if (universities == null) {
             model.addAttribute("notFound", true);
         }
+
         return "university";
     }
+
 }
